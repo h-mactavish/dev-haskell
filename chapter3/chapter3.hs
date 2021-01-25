@@ -52,11 +52,11 @@ overwrite x =
 
 --Overwrite using lambdas
 
-overwrite2 x =
-  ( \x ->
-      ( \x ->
-          (\x -> x) 4
-      )
-        3
-  )
-    2
+-- overwrite2 x =
+--   ( \x ->
+--       ( \x ->
+--           (\x -> x) 4
+--       )
+--         3
+--   )
+--     2
